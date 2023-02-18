@@ -16,18 +16,13 @@ body {
 	font-weight: bold;
 }
 .detailsInside {
-	background-color: #999999;
-	color: #000;
-	border: 5px #696969 solid;
 	padding: 9px;
 }
-
 summary {
 	cursor: pointer;
 	font-size: 19px;
 	font-weight: bold;
 }
-
 .goBack {
 	color: #00eeff;
 	text-decoration: none;
