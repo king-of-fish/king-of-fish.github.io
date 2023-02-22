@@ -4,7 +4,12 @@ const project = parameters.get("prj");
 const projectURL = `${location.host}/media/projects/${project}`;
 const other_params = [
 	[ "username", "Player" ],
-].map(e => `${e[0]}=${e[1]}`).join("&");
+	[ "addons", [ "pause" ].join(",") ],
+].map(e => {
+	if (e.length == 2)
+		return `${e[0]}=${e[1]}`
+	return e[0];
+}).join("&");
 
 const createURL = page => `https://turbowarp.org/${page}?project_url=${encodeURIComponent(projectURL)}&${other_params}`
 
@@ -26,4 +31,4 @@ fetch("/media/loader_elements/projects.json")
 		seeInside.href = createURL("editor");
 	});
 
-console.log(project);
+console.log(`Fetching project ${project}`);

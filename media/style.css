@@ -36,3 +36,16 @@ summary {
 .seeInside {
 	color: #00eeff;
 }
+
+iframe {
+	border: none;
+}
+
+.turbo-credit {
+	font-style: italic;
+	color: #99AA
+}
+
+.turbo-credit :any-link {
+	color: #F89;
+}
