@@ -2,27 +2,33 @@ body {
 	background-color: #060317;
 	color: #fff;
 }
+
 .homepageBody {
 	padding: 15px;
 }
+
 .DS {
 	background-color: #a8a5b6;
 	color: #000;
 	border: 5px #808089 solid;
 	padding: 5px;
 }
+
 .title {
 	font-size: 19px;
 	font-weight: bold;
 }
+
 .detailsInside {
 	padding: 9px;
 }
+
 summary {
 	cursor: pointer;
 	font-size: 19px;
 	font-weight: bold;
 }
+
 .goBack {
 	color: #00eeff;
 	text-decoration: none;
