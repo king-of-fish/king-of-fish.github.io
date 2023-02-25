@@ -21,7 +21,8 @@ seeInside.href = createURL("editor");
 
 const projectName = document.querySelector("#projectName"),
 	desc = document.querySelector("#description"),
-	instr = document.querySelector("#instructions");
+	instr = document.querySelector("#instructions"),
+	added = document.querySelector("#dateAdded");
 fetch("/media/loader_elements/projects.json")
 	.then(r => r.json())
 	.then(DATA => {
@@ -29,6 +30,7 @@ fetch("/media/loader_elements/projects.json")
 		projectName.innerText = projectData.name;
 		document.title = `${projectData.name} - Projects`;
 		desc.innerText = projectData.desc;
+		added.innerText = projectData.added;
 		if (useHTML.includes("desc"))
 			desc.innerHTML = projectData.desc;
 		instr.innerText = projectData.instr;

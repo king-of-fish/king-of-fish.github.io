@@ -5,7 +5,7 @@
 		"useHTML": [],
 		"desc": "Test project",
 		"instr": "This isn't a game silly billy",
-		"refdate": ""
+		"added": "Feb 17, 2023"
 	},
 	"Purple.sb3": {
 		"filename": "Purple.sb3",
@@ -13,7 +13,7 @@
 		"useHTML": [],
 		"desc": "Test project, same as last",
 		"instr": "Why he Ourple 😂",
-		"refdate": ""
+		"added": "Feb 17, 2023"
 	},
 	"Kingy_thing.sb3": {
 		"filename": "Kingy_thing.sb3",
@@ -21,14 +21,14 @@
 		"useHTML": [],
 		"desc": "Test project again",
 		"instr": "Me when me",
-		"refdate": ""
+		"added": "Feb 17, 2023"
 	},
 	"Ultra_Sandbox_2.sb3": {
 		"filename": "Ultra_Sandbox_2.sb3",
 		"name": "Ultra Sandbox 2",
 		"useHTML": [ "instr" ],
 		"desc": "Welcome to Ultra Sandbox 2, the sequel to a game I made on Scratch in like 2022!",
-		"instr": "<p class=\"title\">INSTRUCTIONS</p><p>",
-		"refdate": ""
+		"instr": "<p class=\"title\">INSTRUCTIONS</p>",
+		"added": "Indev"
 	}
 }

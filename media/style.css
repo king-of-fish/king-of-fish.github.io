@@ -49,9 +49,20 @@ iframe {
 
 .turbo-credit {
 	font-style: italic;
-	color: #99AA
+	color: #99AA;
 }
 
 .turbo-credit :any-link {
 	color: #F89;
+}
+
+time#dateAdded {
+	display: block;
+	color: #99AA;
+	/* text-decoration: underline; */
+}
+
+time#dateAdded::before {
+	content: "Date Added: ";
+	text-decoration: none;
 }
