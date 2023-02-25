@@ -22,13 +22,5 @@
 		"desc": "Test project again",
 		"instr": "Me when me",
 		"added": "Feb 17, 2023"
-	},
-	"Ultra_Sandbox_2.sb3": {
-		"filename": "Ultra_Sandbox_2.sb3",
-		"name": "Ultra Sandbox 2",
-		"useHTML": [ "instr" ],
-		"desc": "Welcome to Ultra Sandbox 2, the sequel to a game I made on Scratch in like 2022!",
-		"instr": "<p class=\"title\">INSTRUCTIONS</p>",
-		"added": "Indev"
 	}
 }
