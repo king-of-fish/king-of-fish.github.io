@@ -59,7 +59,6 @@ iframe {
 time#dateAdded {
 	display: block;
 	color: #99AA;
-	/* text-decoration: underline; */
 }
 
 time#dateAdded::before {
