@@ -2,7 +2,6 @@ const { searchParams: parameters } = new URL(location);
 
 const project = parameters.get("prj");
 const projectURL = `${location.host}/media/projects/${project}`;
-const EL = document.querySelector;
 const other_params = [
 	[ "username", "Player" ],
 	[ "addons", [ "pause" ].join(",") ],
@@ -14,15 +13,15 @@ const other_params = [
 
 const createURL = (page, overwritePrjURL = projectURL) => `https://turbowarp.org/${page}?project_url=${encodeURIComponent(overwritePrjURL)}&${other_params}`
 
-const projectEmbed = EL("#project");
+const projectEmbed = document.querySelector("#project");
 projectEmbed.src = createURL("embed");
 
-const seeInside = EL("#seeInside");
+const seeInside = document.querySelector("#seeInside");
 seeInside.href = createURL("editor");
 
-const projectName = EL("#projectName"),
-	desc = EL("#description"),
-	instr = EL("#instructions");
+const projectName = document.querySelector("#projectName"),
+	desc = document.querySelector("#description"),
+	instr = document.querySelector("#instructions");
 fetch("/media/loader_elements/projects.json")
 	.then(r => r.json())
 	.then(DATA => {
