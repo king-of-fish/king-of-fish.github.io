@@ -36,4 +36,4 @@ fetch("/media/loader_elements/projects.json")
 			instr.innerHTML = projectData.instr;
 	});
 
-console.log(`Fetching project #{project}`);
+console.log(`Fetching project ${project}`);
