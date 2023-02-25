@@ -16,5 +16,13 @@
 		"name": "PFP",
 		"desc": "Test project again",
 		"instr": "Me when me"
+	},
+	"Ultra_Sandbox_2.sb3": {
+		"filename": "Ultra_Sandbox_2.sb3",
+		"name": "Ultra Sandbox 2",
+		"dHTML": true,
+		"iHTML": true,
+		"desc": "Welcome to Ultra Sandbox 2, the sequel to a game I made on Scratch in like 2022!",
+		"instr": "INSTRUCTIONS"
 	}
 }
