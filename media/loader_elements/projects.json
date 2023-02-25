@@ -4,20 +4,31 @@
 		"name": "SB3 Man",
 		"useHTML": [],
 		"desc": "Test project",
-		"instr": "This isn't a game silly billy"
+		"instr": "This isn't a game silly billy",
+		"refdate": ""
 	},
 	"Purple.sb3": {
 		"filename": "Purple.sb3",
 		"name": "Purple",
 		"useHTML": [],
 		"desc": "Test project, same as last",
-		"instr": "Why he Ourple 😂"
+		"instr": "Why he Ourple 😂",
+		"refdate": ""
 	},
 	"Kingy_thing.sb3": {
 		"filename": "Kingy_thing.sb3",
 		"name": "PFP",
 		"useHTML": [],
 		"desc": "Test project again",
-		"instr": "Me when me"
+		"instr": "Me when me",
+		"refdate": ""
+	},
+	"Ultra_Sandbox_2.sb3": {
+		"filename": "Ultra_Sandbox_2.sb3",
+		"name": "Ultra Sandbox 2",
+		"useHTML": [ "instr" ],
+		"desc": "Welcome to Ultra Sandbox 2, the sequel to a game I made on Scratch in like 2022!",
+		"instr": "<p class=\"title\">INSTRUCTIONS</p><p>",
+		"refdate": ""
 	}
 }
