@@ -27,7 +27,11 @@ fetch("/media/loader_elements/projects.json")
 		projectName.innerText = projectData.name;
 		document.title = `${projectData.name} - Projects`;
 		desc.innerText = projectData.desc;
+		if ("dHTML" in projectData)
+			desc.innerHTML = projectData.desc;
 		instr.innerText = projectData.instr;
+		if ("dHTML" in projectData)
+			instr.innerHTML = projectData.instr;
 		seeInside.href = createURL("editor");
 	});
 
