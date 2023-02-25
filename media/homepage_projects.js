@@ -5,7 +5,7 @@ fetch("/media/loader_elements/projects.json")
 		for (let project in projects) {
 			let link = document.createElement("a");
 			link.href = `/sb3_interface.html?prj=${project}`;
-			link.innerText = projects[project].name; // test comment
+			link.innerText = projects[project].name;
 
 			let listEl = document.createElement("li");
 			listEl.appendChild(link);

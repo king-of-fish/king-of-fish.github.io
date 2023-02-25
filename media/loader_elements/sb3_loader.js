@@ -11,7 +11,7 @@ const other_params = [
 	return e[0];
 }).join("&");
 
-const createURL = page => `https://turbowarp.org/${page}?project_url=${encodeURIComponent(projectURL)}&${other_params}`
+const createURL = (page, overwritePrjURL = projectURL) => `https://turbowarp.org/${page}?project_url=${encodeURIComponent(overwritePrjURL)}&${other_params}`
 
 const projectEmbed = document.querySelector("#project");
 projectEmbed.src = createURL("embed");
