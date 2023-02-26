@@ -66,6 +66,13 @@ time#dateAdded {
 	color: #99AA;
 }
 
+.NFPage{
+	background-color:#65626f;
+	padding: 2px;
+	border: 2px #45434c solid;
+}
+
 .smoltext{
 	font-size: 60%;
+
 }
