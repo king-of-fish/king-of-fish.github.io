@@ -55,13 +55,10 @@ iframe {
 .turbo-credit :any-link {
 	color: #F89;
 }
-
 time#dateAdded {
 	display: block;
 	color: #99AA;
 }
-
-time#dateAdded::before {
-	content: "Date Added: ";
-	text-decoration: none;
+.smoltext{
+	font-size: 60%;
 }
