@@ -23,6 +23,7 @@ const projectName = document.querySelector("#projectName"),
 	added = document.querySelector("#dateAdded"),
 	desc = document.querySelector("#description"),
 	instr = document.querySelector("#instructions");
+	
 fetch("/media/loader_elements/projects.json")
 	.then(r => r.json())
 	.then(DATA => {
