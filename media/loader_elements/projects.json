@@ -22,13 +22,5 @@
 		"desc": "Test project again",
 		"instr": "Me when me",
 		"added": "Feb 17, 2023"
-	},
-	"Ultra_Sandbox_2.sb3": {
-		"filename": "Ultra_Sandbox_2.sb3",
-		"name": "Ultra Sandbox 2",
-		"useHTML": [ "instr","desc" ],
-		"desc": "<div class=\"smoltext\">Currently in v1.0</div><div></div><div>Welcome to Ultra Sandbox 2! The sequel to <a href=https://scratch.mit.edu/projects/720682333/>a game I made on Scratch</a> in like 2022.</div><br><div>This game is gonna be updated for a while. Not sure when I'm gonna consider it finished, but certainly not now.</div><br><div>We need more sound effects here. I'm too lazy to find any royalty free ones right now, maybe later.</div><br><br><div>All music and sounds created with <a href=https://www.beepbox.co/>Beepbox.</a></div><div>Font used is <a href=https://www.dafont.com/grand9k-pixel.font>Grand 9K Pixel.</a>",
-		"instr": "<div>-E to open power catalogue</div><div>-Space to spawn something</div>",
-		"added": "Feb 26, 2023"
 	}
 }
