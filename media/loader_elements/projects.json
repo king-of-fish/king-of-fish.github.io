@@ -1,26 +1,10 @@
 {
-	"sb3_man.sb3": {
-		"filename": "sb3_man.sb3",
-		"name": "SB3 Man",
-		"useHTML": [],
-		"desc": "Test project",
+	"WispForest.sb3": {
+		"filename": "WispForest.sb3",
+		"name": "Wisp Forest",
+		"useHTML": [ "desc" ],
+		"desc": "<div>A thing where you get to watch thousands of wisps or something hover through.</div><br><div>Looks cool and stuff. IDK why the trees are blue they just are.</div>",
 		"instr": "This isn't a game silly billy",
-		"added": "Feb 17, 2023"
-	},
-	"Purple.sb3": {
-		"filename": "Purple.sb3",
-		"name": "Purple",
-		"useHTML": [],
-		"desc": "Test project, same as last",
-		"instr": "Why he Ourple 😂",
-		"added": "Feb 17, 2023"
-	},
-	"Kingy_thing.sb3": {
-		"filename": "Kingy_thing.sb3",
-		"name": "PFP",
-		"useHTML": [],
-		"desc": "Test project again",
-		"instr": "Me when me",
 		"added": "Feb 17, 2023"
 	}
 }
