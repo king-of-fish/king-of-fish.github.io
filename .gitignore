@@ -2,3 +2,5 @@
 .config
 replit.nix
 .vscode
+_site
+.jekyll-cache
