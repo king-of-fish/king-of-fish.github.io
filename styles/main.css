@@ -3,7 +3,8 @@ body {
     color: #fff;
 }
 
-section {
+section,
+footer {
     border: 5px #99b solid;
     background: #eef;
     color: #000;
