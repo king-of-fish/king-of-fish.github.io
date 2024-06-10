@@ -1,0 +1,15 @@
+body {
+    width: 40vw;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 8px;
+}
+
+:link {
+    color: var(--link);
+}
+
+:visited {
+    color: var(--visited);
+}
