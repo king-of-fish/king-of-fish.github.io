@@ -4,6 +4,7 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 8px;
+    min-height: calc(100vh - 16px);
 }
 
 :link {
