@@ -20,7 +20,7 @@ Additional Credits to   :
 
 New levels              : 1
 Sounds                  : No
-Music                   : No
+Music                   : Yes
 Graphics                : Yes
 Dehacked/BEX Patch      : No
 Demos                   : No
