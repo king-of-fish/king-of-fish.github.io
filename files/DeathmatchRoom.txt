@@ -17,7 +17,7 @@ Description             : A small map primarily made for deathmatch.
 New levels              : 1
 Sounds                  : No
 Music                   : No
-Graphics                : No
+Graphics                : Yes
 Dehacked/BEX Patch      : No
 Demos                   : No
 Other                   : No
