@@ -11,6 +11,10 @@ Misc. Author Info       :
        website: king-of-fish.github.io
 
 Description             : A small map primarily made for deathmatch.
+Additional Credits to   :
+       Elia Clerici, for their image of a bluesky on Pexels used as the
+       skybox texture. For the original upload, visit
+       https://www.pexels.com/photo/photo-of-blue-sky-912110/
 ===========================================================================
 * What is included *
 
