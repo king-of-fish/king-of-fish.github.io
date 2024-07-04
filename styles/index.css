@@ -1,0 +1,30 @@
+body {
+    background-color: #000010;
+    color: #fff;
+}
+
+section,
+footer {
+    border: 5px #99b solid;
+    background: #eef;
+    color: #000;
+    padding: 5px;
+    margin: 5px;
+
+    :link {
+        color: #03a;
+    }
+
+    :visited {
+        color: #029;
+    }
+}
+
+:link {
+    color: #59f;
+}
+
+:visited {
+    color: #48f;
+}
+
